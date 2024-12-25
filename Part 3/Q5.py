@@ -11,7 +11,6 @@
 items = {'item1': 45.50, 'item2':35, 'item3': 41.30, 'item4':55, 'item5': 24}
 # # Sort the items by value in descending order and get the top 3
 top_3_items = dict(sorted(items.items(), key=lambda x: x[1], reverse=True)[:3])
-print(top_3_items)
 
 prices = {'item1': 45.50, 'item2': 35, 'item3': 41.30, 'item4': 55, 'item5': 24}
 # Get the maximum, second maximum, and third maximum prices using the sorted function
